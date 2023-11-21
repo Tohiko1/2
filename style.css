@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav, header, main, aside, footer {
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    background-color: #3399ff;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+}
+
+header {
+    background-color: #ff6666;
+    position: relative;
+    overflow: hidden;
+    height: 100px;
+}
+
+aside {
+    background-color: #cccccc;
+    float: left;
+    width: 20%;
+    height: calc(100vh - 40px);
+}
+
+main {
+    background-color: #99cc99;
+    margin-left: 20%;
+    height: calc(100vh - 40px);
+}
+
+footer {
+    background-color: #cc99cc;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.clearfix {
+    clear: both;
+}
